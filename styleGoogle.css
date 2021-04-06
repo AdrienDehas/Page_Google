@@ -1,0 +1,187 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin:0;
+	flex-direction: column
+}
+
+.nav
+{
+	display: flex;
+	padding:6px;
+}
+
+.right
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.left
+{
+	width: 80%
+}
+
+.applications
+{
+	width: 40px;
+	height:40px;
+}
+
+.Gmail
+{
+	margin-right: 1em;
+}
+
+.Images
+{
+	margin-right: 1em;
+}
+.applications
+{
+	margin-top: -1.5em;
+	margin-left: -3em;
+	margin-right: -1em
+}
+
+.Connexion
+{
+	margin-right: 1em;
+	margin-left: 2em;
+}
+
+.logoapplications
+{
+	width: 0.8em;
+	justify-content: center;
+}
+
+.logoGoogle
+{
+	width: 333px;
+	height: 200px;
+	max-height: 100%;
+    max-width: 100%;
+}
+
+.milieu
+{
+	display: flex;
+	justify-content: center;
+}
+
+label 
+{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label 
+{
+    margin: .4rem 0;
+}
+
+#search
+{
+	display: flex;
+	justify-content: center;
+	margin-top: -3em;
+}
+
+.boutonscentre
+{
+	display: flex;
+	justify-content: center;
+}
+
+.boutonrecherche
+{
+	margin-right: 2em;
+	margin-top: 1em;
+	border: 1px solid #dadce0;
+	border-radius: 4px;
+	background-color: #f8f9fa;
+	padding: 0 16px;
+}
+
+.chance
+{
+	margin-top: 1em;
+	border: 1px solid #dadce0;
+	border-radius: 4px;
+	background-color: #f8f9fa;
+	padding: 0 16px;
+}
+
+.LienEnglish
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3em;
+	font-size: 0.9em;
+}
+
+.sectionfrance
+{
+	display: flex;
+}
+
+.france
+{
+	margin-left: 1em;
+}
+
+.sectioncarbone
+{
+	display: flex;
+	justify-content: center;
+	font-size: 0.9em;
+	margin-top: 3em;
+}
+
+.liencarbone
+{
+	display: flex;
+}
+
+.fleur
+{
+	height: 14px;
+	margin-right: 6px;
+}
+
+.neutreencarbone
+{
+	margin-top: -0.2em;
+}
+
+.gris
+{
+	background-color: #dadce0;
+	color: rgba(0,0,0,.54);
+	text-decoration: none;
+}
+
+.Gmail,.Images,.Connexion,.liencarbone,.apropos,.publicité,.entreprise,.commentfonctionne,.info,.confidentialité,.conditions,.paramètres
+{
+	text-decoration: none
+}
+
+.Gmail,.Images,.Connexion
+{
+	color:rgba(0,0,0,0.87)
+}
+
+.liencarbone,.apropos,.publicité,.entreprise,.commentfonctionne,.info,.confidentialité,.conditions,.paramètres
+{
+	color:rgba(0,0,0,.54);
+}
+
+.listebas
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding:10px;
+}
